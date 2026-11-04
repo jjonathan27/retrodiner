@@ -391,10 +391,18 @@ img {
 #body .content div div p a:hover {
 	color :#80210b;
 }
-#body .content div div h1 {
+#body .content div div h1,
+#body .content div div h2 {
 	font-family :'Lobster1.4Regular';
 	font-size :36px;
 	color :#1b6568;
+	font-weight :normal;
+}
+#body .content div div h2.form-heading,
+#body .content div div h4 {
+	font-size :24px;
+	color :#822619;
+	font-family :'Lobster1.4Regular';
 	font-weight :normal;
 }
 #body .content div div ul {
@@ -417,7 +425,9 @@ img {
 	border :none;
 }
 #body .content div div ul li h2,
-#body .content div div ul li h2 a {
+#body .content div div ul li h2 a,
+#body .content div div ul li h3,
+#body .content div div ul li h3 a {
 	font-family :'Lobster1.4Regular';
 	font-size :24px;
 	color :#822619;
@@ -471,6 +481,10 @@ img {
 	margin :30px 0;
 	text-align :center;
 	padding-top :30px;
+}
+#body .sidebar.menu-sidebar {
+	float :right;
+	margin :30px 20px 30px 0;
 }
 #body .sidebar h1,
 #body .sidebar h2 {
@@ -651,7 +665,9 @@ img {
 	color :#1b6568;
 	text-decoration :none;
 }
-#body div#section div.section div div h3 {
+#body div#section div.section div div h3,
+#body div#section div.section div div .post-meta {
+	display :block;
 	font-family :'NunitoRegular';
 	color :#4c1407;
 	font-size :14px;
